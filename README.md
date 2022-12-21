@@ -9,3 +9,7 @@ IOS 기기 기준으로 제작되었으며, IOS 기기로만 실행됩니다.
 볼륨 조절은 rotation X값을 기준으로 조절이 됩니다. 기기를 위아래로 움직여 볼륨을 조절해보세요!
 
 실행 결과 :
+
+
+https://user-images.githubusercontent.com/64454313/208874321-727d5c94-9bfa-4141-a1a0-e6f27fd9328f.mp4
+
