@@ -80,7 +80,6 @@ function draw(){
   background(0);
   w = 60;
 
-  // 건반 모양 만들기
   for (var i = 0; i < pitches.length; i++) {
     var x = i * w;
     fill(255);
@@ -94,7 +93,6 @@ function draw(){
   text("volume: "+val, 225+ margin, 25)
   
   
-  //건반 터치 시 색 변화
   for(var i = 0; i < touches.length; i++){
     if(60 < touches[i].y && touches[i].y < 200 ){
       if(margin< touches[i].x && touches[i].x < w-1+ margin){
