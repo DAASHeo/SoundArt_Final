@@ -6,7 +6,7 @@ var wd;
 var margin = 50;
 
 function setup() {
-  createCanvas(1080, 480);
+  createCanvas(780, 480);
   
   //ios check start
   if(typeof DeviceMotionEvent.requestPermission == "function"){
