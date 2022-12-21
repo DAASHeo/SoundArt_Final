@@ -97,7 +97,7 @@ function draw(){
   //건반 터치 시 색 변화
   for(var i = 0; i < touches.length; i++){
     if(60 < touches[i].y && touches[i].y < 200 ){
-      if(+ margin< touches[i].x && touches[i].x < w-1+ margin){
+      if(margin< touches[i].x && touches[i].x < w-1+ margin){
         fill(255, 0, 0);
         rect(margin, 60, w-1, 200);
         C4.freq(pitches[0]);
