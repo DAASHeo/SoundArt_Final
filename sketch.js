@@ -166,19 +166,6 @@ function draw(){
   }
 }
 
-function touchEnded() {
-  C4.amp(0, 0.5);
-  D4.amp(0, 0.5);
-  E4.amp(0, 0.5);
-  F4.amp(0, 0.5);
-  G4.amp(0, 0.5);
-  A4.amp(0, 0.5);
-  B4.amp(0, 0.5);
-  C5.amp(0, 0.5);
-  D5.amp(0, 0.5);
-  E5.amp(0, 0.5);
-}
-
 function touchStarted(){
   getAudioContext().resume();
   
@@ -216,4 +203,17 @@ function touchStarted(){
       }
     }
   }
+}
+
+function touchEnded() {
+  C4.amp(0, 0.5);
+  D4.amp(0, 0.5);
+  E4.amp(0, 0.5);
+  F4.amp(0, 0.5);
+  G4.amp(0, 0.5);
+  A4.amp(0, 0.5);
+  B4.amp(0, 0.5);
+  C5.amp(0, 0.5);
+  D5.amp(0, 0.5);
+  E5.amp(0, 0.5);
 }
